@@ -4,6 +4,8 @@ phases:
   install:
     commands:
       - pwd
+      - printenv REPOSITORY_NAME
+      - echo $REPOSITORY_NAME
       - printenv SOME_KEY2
       - echo $SOME_KEY2
       - printenv $SOME_KEY2
